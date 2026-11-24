@@ -1,0 +1,55 @@
+# Secrets & Local Configurations
+.assistant_config.json
+config.json
+*.env
+.env*
+*.token*
+.cache/
+spotipy_token.json
+
+# Python & Environments
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+venv/
+.venv/
+voice_assistant_env/
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Audio recordings & caches (keep repository assets like chime.wav)
+*.wav
+!chime.wav
+*.mp3
+*.ogg
+*.flac
+*.webm
+
+# Large Offline Models (downloaded via setup.sh)
+voice_assistant_models/
+models/
+
+# System & IDE files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+*.log
